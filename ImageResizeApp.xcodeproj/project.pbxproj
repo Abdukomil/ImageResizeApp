@@ -16,6 +16,8 @@
 		D2C7514F29B0A43500C01F67 /* ImageResizeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C7514E29B0A43500C01F67 /* ImageResizeAppTests.swift */; };
 		D2C7515929B0A43500C01F67 /* ImageResizeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C7515829B0A43500C01F67 /* ImageResizeAppUITests.swift */; };
 		D2C7515B29B0A43500C01F67 /* ImageResizeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C7515A29B0A43500C01F67 /* ImageResizeAppUITestsLaunchTests.swift */; };
+		D2C7516929B0ABA600C01F67 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2C7516729B0ABA600C01F67 /* image1.jpg */; };
+		D2C7516A29B0ABA600C01F67 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2C7516829B0ABA600C01F67 /* image2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D2C7515429B0A43500C01F67 /* ImageResizeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageResizeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C7515829B0A43500C01F67 /* ImageResizeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeAppUITests.swift; sourceTree = "<group>"; };
 		D2C7515A29B0A43500C01F67 /* ImageResizeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2C7516729B0ABA600C01F67 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = ../../../../../Desktop/image1.jpg; sourceTree = "<group>"; };
+		D2C7516829B0ABA600C01F67 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpg; path = ../../../../../Desktop/image2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		D2C7513629B0A43300C01F67 /* ImageResizeApp */ = {
 			isa = PBXGroup;
 			children = (
+				D2C7516729B0ABA600C01F67 /* image1.jpg */,
+				D2C7516829B0ABA600C01F67 /* image2.jpg */,
 				D2C7513729B0A43300C01F67 /* AppDelegate.swift */,
 				D2C7513929B0A43300C01F67 /* SceneDelegate.swift */,
 				D2C7513B29B0A43300C01F67 /* ViewController.swift */,
@@ -232,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C7514429B0A43400C01F67 /* LaunchScreen.storyboard in Resources */,
+				D2C7516A29B0ABA600C01F67 /* image2.jpg in Resources */,
+				D2C7516929B0ABA600C01F67 /* image1.jpg in Resources */,
 				D2C7514129B0A43400C01F67 /* Assets.xcassets in Resources */,
 				D2C7513F29B0A43300C01F67 /* Main.storyboard in Resources */,
 			);
